@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recode Planity</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./asset/css/reset.css">
+  <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+
+  <!-- START : header -->
+  
+  <header class="header flux">
+    <img 
+    class="header__logo"
+    src="./asset/img/logo.svg" 
+    alt="logo de l'entreprise planity">
+    <nav aria-label="menu-principal">
+      <ul class="header__list-link">
+        <li class="header__link"><a href="coiffeur.html">Coiffeur</a></li>
+        <li class="header__link"><a href="Barbier.html">Barbier</a></li>
+        <li class="header__link"><a href="manucure.html">Manucure</a></li>
+        <li class="header__link"><a href="institut-de-beaute.html">Institut de beauté</a></li>
+      </ul>
+    </nav>
+    
+    <div class="header__quick-actions">
+      <button type="button" class="header__button">Ajoutez votre établissement</button>
+      <button type="button" class="header__button header__button--black">
+      <i class="fa-solid fa-user"></i> Mon compte</button>
+    </div>
+  </header>
+
+  <!-- END : header -->
+
+  <!-- START : main -->
+
+  <main>
+    <!-- START : Hero -->
+    <section class="hero">
+      <h1 class="hero__title">Vos rendez-vous beauté en ligne</h1>
+      <p class="hero__description">Simple • Immédiat • 24h/24</p>
+      <form class="hero__form" action="" method="get">
+
+        <label for="my-service">Que recherchez-vous</label>
+        <input 
+          type="text"
+          name="search" 
+          id="my-service"
+          placeholder="Nom du salon, prestaions (coupe...)">
+
+          <label>
+            Ou
+          <input 
+            type="text"
+            name="city" 
+            id="salon"
+            placeholder="Adresse, ville...">
+          </label>
+
+          <button type="submit">Rechercher</button>
+      </form>
+    </section>
+    <!-- END : Hero -->
+  </main>
+  <!-- END : main -->
+</body>
+</html>

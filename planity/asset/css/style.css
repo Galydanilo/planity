@@ -1,0 +1,58 @@
+body {
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+/* FLUX */
+
+.flux {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header__logo{
+  width: 150px;
+}
+
+.header__list-link{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.header__link {
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+.header__quick-actions {
+  display: flex;
+  column-gap: 20px;
+}
+
+.header__button {
+  background-color: #f1f1f1;
+  font-weight: 300;
+  color: #545454;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+}
+
+.header__button--black {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
