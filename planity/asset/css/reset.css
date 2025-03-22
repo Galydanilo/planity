@@ -21,7 +21,8 @@ ul, ol {
   margin: 0;
 }
 
-button{
+button, input{
   border-width: 0;
   background-color: transparent;
 }
+

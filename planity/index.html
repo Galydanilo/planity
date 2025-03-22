@@ -12,7 +12,8 @@
 
   <!-- START : header -->
   
-  <header class="header flux">
+  <header class="header">
+    <div class="header__container flux">
     <img 
     class="header__logo"
     src="./asset/img/logo.svg" 
@@ -27,9 +28,10 @@
     </nav>
     
     <div class="header__quick-actions">
-      <button type="button" class="header__button">Ajoutez votre établissement</button>
-      <button type="button" class="header__button header__button--black">
+      <button type="button" class="button">Ajoutez votre établissement</button>
+      <button type="button" class="button button--black">
       <i class="fa-solid fa-user"></i> Mon compte</button>
+    </div>
     </div>
   </header>
 
@@ -39,11 +41,11 @@
 
   <main>
     <!-- START : Hero -->
-    <section class="hero">
+    <section class="hero flux">
       <h1 class="hero__title">Vos rendez-vous beauté en ligne</h1>
       <p class="hero__description">Simple • Immédiat • 24h/24</p>
-      <form class="hero__form" action="" method="get">
-
+      <form class="hero__search" action="" method="get">
+        <div class="hero__field">
         <label class="hero__label" for="my-service">Que recherchez-vous</label>
         <input 
           class="hero__input"
@@ -51,9 +53,12 @@
           name="search" 
           id="my-service"
           placeholder="Nom du salon, prestaions (coupe...)">
+        </div>
 
-          <label class="hero__label">
-            <span class="hero__label">Ou</span>
+        <span class="border"></span>
+
+          <label class="hero__field">
+            <span class="hero__label">Où ?</span>
           <input
             class="hero__input"  
             type="text"
@@ -62,7 +67,7 @@
             placeholder="Adresse, ville...">
           </label>
 
-          <button class="hero__button" type="submit">Rechercher</button>
+          <button class="button  button--black" type="submit">Rechercher</button>
       </form>
     </section>
     <!-- END : Hero -->
